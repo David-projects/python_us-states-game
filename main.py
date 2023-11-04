@@ -40,4 +40,7 @@ while game_is_on:
     except:
         game_is_on = False
 
-screen.exitonclick()
+    if answer_state == "Exit":
+        game_is_on = False
+
+
